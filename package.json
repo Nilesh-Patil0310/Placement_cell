@@ -1,0 +1,34 @@
+{
+  "name": "placement_cell",
+  "version": "1.0.0",
+  "description": "The Placement Cell Application the students those who are enroller in carrier camp profetional cource of fullstack web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nilesh-Patil0310/Placement_cell.git"
+  },
+  "author": "Nilesh Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nilesh-Patil0310/Placement_cell/issues"
+  },
+  "homepage": "https://github.com/Nilesh-Patil0310/Placement_cell#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.3.3",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.22",
+    "objects-to-csv": "^1.3.6",
+    "passport": "^0.5.3",
+    "passport-local": "^1.0.0",
+    "validator": "^13.7.0"
+  }
+}
