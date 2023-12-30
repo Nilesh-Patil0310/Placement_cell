@@ -1,3 +1,4 @@
+// passport authentication
 const passport = require("passport");
 const passportLocals = require("passport-local").Strategy;
 const Employee = require("../models/employee");
