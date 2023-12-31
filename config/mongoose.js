@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 async function db() {
   mongoose.set("strictQuery", true);
   await mongoose.connect(
-    "mongodb+srv://rQHVVwUaZS7BPi1Y@cluster0.omo5kfv.mongodb.net/placement-cell-prod?retryWrites=true&w=majority"
+    "mongodb://localhost:27017/placement_cell_db"
   );
   console.log("connection Successfull !! ");
 }
