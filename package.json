@@ -4,6 +4,7 @@
   "description": "The Placement Cell Application the students those who are enroller in carrier camp profetional cource of fullstack web development",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
