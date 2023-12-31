@@ -8,7 +8,7 @@ const developement = {
   secret_key:
     "#placement_Cell@careercamp$$student&&&interface##Nilesh^^Patil%%",
   mongoose_path:
-    "mongodb://localhost:27017/placement_cell_db",
+    "mongodb://127.0.0.1:27017/placement_cell_db",
   api_path: "https://remotive.com/api/remote-jobs",
 };
 module.exports = developement;
